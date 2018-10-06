@@ -1,0 +1,92 @@
+<!-- Have to apply PHP part -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Student Home</title>
+</head>
+<body>
+	<table border="1" align="center" width="90%" height="100%" cellspacing="0" bgcolor="#0F1F3A">
+		<tr align="left">
+			<td colspan="2">
+				
+				<input type="image" name="logo" src="img/CRS.jpg" width="25%" height="25%">
+
+					<nav align="center">
+
+						<button type="button" onclick="location.href='S_home_view.html'"><font color="red" size="4em" /><b/>Home</button>
+						<button type="button" onclick="location.href='student_profile_view.html'"><font color="red" size="4em" /><b/>Profile</button>
+						<button type="button" onclick="location.href='Student_searchJobOffers_view.html'"><font color="red" size="4em" /><b/>Job Offers</button><!-- Changes will apply here -->
+						<button type="button" onclick="location.href='homepage.html'"><font color="red" size="4em" /><b/>Log Out</button><!-- Changes will apply here -->
+					
+					</nav>
+			</td>
+		</tr>
+			<!-- Changes will apply here -->
+			<td valign="top" width="25%">
+				<fieldset>
+					<legend>
+				<font size="5em" color="#F78541">
+					
+				<b/>Timeline
+				</font></legend>
+				<br><br>
+				<ul>
+					<hr>
+
+					<br><br><br><br><br><br><br><br><br><br>
+					
+				</ul>
+			</fieldset>
+			</td>
+			<td >
+				<table>
+					
+						<td>
+							<fieldset>
+								
+								<table>
+									<tr>
+										<td width="800" height="200"   >
+									<font color="white" size="4em">Welcome to the 
+									<font color="yellow" size="4em"/>CAMPUS 
+									<font color="red" size="4em"/>RECRUITMENT 
+									<font color="teal" size="4em"/>SYSTEM
+										<a href="loggedin.php"><?php echo $_SESSION['username'] ?></a></font>
+										<br><br><br>
+									<font color="white">Status:
+										<a href="loggedin.php"><?php echo $_SESSION['username'] ?></a></font>
+										<br><br><br>
+									<font color="white">Expert In: 
+										<a href="loggedin.php"><?php echo $_SESSION['username'] ?></a></font>
+										<button><font color="red" size="3em"/>HTML</button>
+											<button><font color="#468A78" size="3em"/>C/C++</button>
+											<button><font color="#FFC300  " size="3em"/>JAVASCRIPT</button>
+											<button><font color="#FF5733  " size="3em"/>AJAX</button>
+											<button><font color="#900C3F" size="3em"/>PHP</button>
+										</td>
+										
+									</tr>
+									
+									
+								</table>
+							</fieldset>
+						</td>
+					
+				</table>
+			</td>
+			
+		</tr>
+		<tr align="right">
+				<td colspan="2">
+					<h5 align="center">
+						<font color="white">
+							<input type="search" id="mySearch" name="mysearch">
+    						<button>Search</button>
+    					</font>
+					</h5>
+				</td>
+			</tr>
+	</table>
+</body>
+</html>

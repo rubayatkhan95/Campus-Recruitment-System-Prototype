@@ -1,0 +1,220 @@
+
+<!-- Have to apply PHP part -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Organization Profile</title>
+</head>
+<body>
+	<table border="1" align="center" width="90%" height="100%" cellspacing="0" bgcolor="#0F1F3A">
+		<tr align="left">
+			<td colspan="2">
+				
+				<input type="image" name="logo" src="img/CRS.jpg" width="25%" height="25%">
+
+					<nav align="right">
+
+						<button type="button" onclick="location.href='org_home_view.html'"><font color="red" size="4em" /><b/>Home</button>
+						<button type="button" onclick="location.href='org_profile_view.html'"><font color="red" size="4em" /><b/>Profile</button>
+						<button type="button" onclick="location.href='org_whoWeAre_view.html'"><font color="red" size="4em" /><b/>Who We Are</button><!-- Changes will apply here -->
+						<button type="button" onclick="location.href='homepage.html'"><font color="red" size="4em" /><b/>Log Out</button>
+					</nav>
+			</td>
+		</tr>
+		<tr>
+			<!-- Changes will apply here -->
+<!--<tr align="left" >
+			<td></td>
+			<td colspan="2">
+				<nav>
+					<button type="button" onclick="location.href='S_home.html'">Home</button>
+					<button type="button" onclick="location.href='S_profile.html'">Profile</button>
+					<button type="button" onclick="location.href='S_job_offer.html'">Job Offers</button>
+					<button type="button" onclick="location.href='login.html'">Log Out</button>
+					
+				</nav>
+			</td>
+		</tr>-->
+			<td valign="top" width="25%">
+				<fieldset>
+					<legend>
+				<font size="6em" color="#F78541">
+					
+				<b/><span>Search Employee</span>
+				</font></legend>
+				<br><br>
+				<ul>
+
+			
+				    <span><a href="org_postAJob_view.html"style="text-decoration:none"><font color="teal" size="5em" />Post A Job</a></span>
+					<hr width="150" align="left" size="5">
+					
+					 <span><a href="org_joblist_view.html" style="text-decoration:none"><font color="teal" size="5em" />Job List</a></span>
+					<hr width="150" align="left" size="5">
+					
+					
+					<span><a href="org_searchEmployee_view.html"style="text-decoration:none"><font color="teal" size="5em" />Search Employee</a></span>
+					<hr width="150" align="left" size="5">
+					
+
+				</ul>
+			</fieldset>
+			</td>
+			<td valign="top" height="350" align="center">
+				<table>
+					<tr>
+						<td>
+							<fieldset>
+					<legend>
+						<h2><font color="teal"/>
+							Shamim
+						</h2>
+					</legend>
+
+
+								<table>
+									<tr>
+										<td width="800">
+											
+											<br>
+											<span><font color="white" size="4em" />Bsc Aggregate</span>
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <?php echo $email ?>
+											<input type="text" name="firstname" value="GPA-5">
+											<br>
+											<span><font color="white" size="4em" />College Aggregate</span>
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <?php echo $email ?>
+											 <input type="text" name="firstname" value="AIUB">
+											<br>
+											
+											<span><font color="white" size="4em" />Department</span>
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <?php echo $email ?>
+											&nbsp&nbsp&nbsp&nbsp
+											<!--option-->
+											<select width="25px">
+											  <option value="volvo">CS</option>
+											  <option value="saab" selected>CSE</option>
+											  <option value="vw">SE</option>
+											  <option value="audi" >CSSE</option>
+											</select>
+
+												
+											
+											<br><br>
+
+											
+											<br><br>
+											
+											<table border="1" align="center" width="95%" height="100%" cellspacing="0" bgcolor="#0F1F3A">
+											  <tr >
+												<th style="text-align:left; padding:8px">Name</th>
+												<th style="text-align:left; padding:8px">Age</th>
+												<th style="text-align:left; padding:8px">Gender</th>
+												<th style="text-align:left; padding:8px"> Email     </th>
+												<th style="text-align:left; padding:8px">Contact </th>
+												
+											  </tr>
+											  <tr >
+												<td style="text-align:left; padding:6px">EnamulHaque Shamim</td>
+												<td style="text-align:left; padding:6px">22</td>
+												<td style="text-align:left; padding:6px">Male</td>
+												<td style="text-align:left; padding:6px">abc@gmail.com</td>
+												<td>0124074018</td>
+											  </tr>
+											  <tr>
+											    <td style="text-align:left; padding:6px">Peasha Khan</td>
+											    <td style="text-align:left; padding:6px">21</td>
+												<td style="text-align:left; padding:6px">Female</td>
+												<td style="text-align:left; padding:6px">abc@gmail.com</td>
+											    <td>0124074018</td>
+
+
+											 </tr>
+											  <tr >
+											    <td style="text-align:left; padding:6px">Imran Muhamad</td>
+											    <td style="text-align:left; padding:6px">21</td>
+												<td style="text-align:left; padding:6px">Male</td>
+												<td style="text-align:left; padding:6px">abc@gmail.com</td>
+												<td>0124074018</td>
+											  </tr>
+											  <tr>
+											    <td style="text-align:left; padding:6px">Ashfaqur Rahman</td>
+											    <td style="text-align:left; padding:6px">21</td>
+											    <td style="text-align:left; padding:6px">Male</td>
+												<td style="text-align:left; padding:6px">abc@gmail.com</td>
+												<td>0124074018</td>
+											  </tr>
+											  <tr >
+											    <td style="text-align:left; padding:6px">Shohail Tamim</td>
+											    <td style="text-align:left; padding:6px">21</td>
+											    <td style="text-align:left; padding:6px">Male</td>
+												<td style="text-align:left; padding:6px">abc@gmail.com</td>
+												<td>0124074018</td>
+												
+											  </tr>
+											  
+											</table>
+
+
+
+											<br><br>
+											<br><br>
+											<span><font color="white" size="5em" />Email To</span>
+										    <input size="30"type="text" name="firstname" value="email address">
+											
+											<br><br>
+											<br><br>
+											
+											<span><font color="white" size="5em" />Message Body</span>
+										    <textarea placeholder="type your message here.." rows="3"style="height:80px;width:800px;maxlength:1200">
+											
+											</textarea>
+											<span>
+											<font color="teal" size="4em" />
+											<em>0<em>
+											/1200
+											</span>
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+											
+											<button type="submit" onclick="#"><font color="red" size="4em" /><b/>Cancel</button>
+											<button type="submit" onclick="#"><font color="green" size="4em" /><b/>Send</button>
+										</td>
+										
+										
+										
+										
+										
+										
+									</tr>
+								</table>
+							</fieldset>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr align="right">
+				<td colspan="2">
+					<h5 align="center">
+						<font color="white">
+							<!--<input type="search" id="mySearch" name="mysearch">
+    						<button>Search</button>
+    					-->
+						</font>
+					</h5>
+				</td>
+			</tr>
+	</table>
+</body>
+</html>
+
+
+
